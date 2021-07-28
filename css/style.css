@@ -1,0 +1,104 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+
+/* font family */
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.penguin-bg-primary{
+  background-color: #FFF9F4;
+}
+.penguin-text-primary{
+  color: #3C3C3C;
+}
+.penguin-text-orange{
+  color: #FA804C;
+}
+h1{
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 80px;
+}
+h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363958;
+}
+p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3E3E3E;
+}
+.penguin-link a{
+color:#3C3C3C;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.penguin-link a:hover{
+color:#FA804C;
+}
+#penguin-link-active{
+  color:#FA804C;
+}
+.penguin-btn{
+  width: 170px;
+  height: 60px;
+  background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+  border-radius: 10px;
+}
+.penguin-btn img{
+  width: 24px;
+}
+.penguin-btn a{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.card{
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.card-bg{
+  background: #F1F1F1;
+  border-radius: 20px;
+  margin: 20px;
+  height: 400px;
+}
+.card-bg img {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 58px;
+}
+footer{
+  background-color: #F1F1F1;
+  height: 150px;
+}
+footer img {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px 0px;
+}
+footer p{
+  text-align: center;
+}
